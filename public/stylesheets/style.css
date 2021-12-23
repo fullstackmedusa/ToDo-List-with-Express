@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-areas: 
+  "skills-header last-updated"
+  "skill delete"
+  "home new-skill";
+  background-color: #eeDAC2;
+  color: #42280e;
+  font-family: 'Lora', sans-serif;
+
+}
+
+a {
+  color: #d16644;
+}
+
+.skill{
+  grid-area: skill;
+}
+
+.delete{
+  grid-area: delete;
+}
+.home{
+  grid-area: home;
+}
+.new-skill{
+  grid-area: new-skill;
+}
+.skills-header{
+  grid-area: skills-header;
+}
+.last-updated{
+  grid-area: last-updated;
+}
+
+button{
+  padding:auto;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border-radius: 12px;
+  background-color: #878f84;
+}
