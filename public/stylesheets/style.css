@@ -8,14 +8,14 @@ body {
   "skills-header last-updated"
   "skill delete"
   "home new-skill";
-  background-color: #eeDAC2;
-  color: #42280e;
+  background-color: #c7c2bb;
+  color: #241f0f;
   font-family: 'Lora', sans-serif;
 
 }
 
 a {
-  color: #d16644;
+  color: #927420;
 }
 
 .skill{
@@ -43,5 +43,6 @@ button{
   margin-left: 10px;
   margin-bottom: 5px;
   border-radius: 12px;
-  background-color: #878f84;
+  background-color: #34302c;
+  color: #bec2cb;
 }

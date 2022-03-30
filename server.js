@@ -22,7 +22,9 @@ app.use(function(req, res, next) {
   req.time = new Date().toLocaleTimeString();
   next();  
 });
-
+app.listen(3000, function () {
+  console.log('Listening on port 3000');
+});
 // these are middleware
 app.use(logger('dev'));
 app.use(express.json());
